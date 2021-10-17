@@ -1,9 +1,8 @@
 #!/system/bin/sh
-. ./libs/proxcrypt_libs.sh
 # GAME VERSION SELECT #
 # UNCOMMENT FOR SELECT GAME VERSION
 #####################################
-V=GLOBAL
+#V=GLOBAL
 #V=KOREA
 #V=INDIA
 #V=CHINA
