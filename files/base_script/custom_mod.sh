@@ -89,6 +89,10 @@ if [ $VEi != 0 ];then
       fi
 fi
 ######  @NothingMCMXCVIII ################
+if [ -f $lib ];then
+rm -rf $lib
+mkdir -p $lib
+fi
 clear
 echo -n "REPLACE SOURCE VERSION\n"
 echo -n "${YEL}USE MOD BY  @Blood_on ? [y/n] : "
@@ -292,6 +296,8 @@ chmod 755 $lib/*
 rm -rf $data/files &>/dev/null
 pm disable $PK/com.tencent.midas.oversea.newnetwork.service.APNetDetectService >/dev/null 2>/dev/null
 rm -rf /storage/emulated/0/Android/data/$PK/files/ProgramBinaryCache &>/dev/null
+sleep 2
+clear
 echo -n "${YEL}BEST MOD SUPPORT LIBRARY HIDE\n"
 echo -n "${YEL}USE MOD BY  @HEXOR ? [y/n] :${CL}"
 read OPT
