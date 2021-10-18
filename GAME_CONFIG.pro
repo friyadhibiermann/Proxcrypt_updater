@@ -2,7 +2,7 @@
 # GAME VERSION SELECT #
 # UNCOMMENT FOR SELECT GAME VERSION
 #####################################
-#V=GLOBAL
+V=GLOBAL
 #V=KOREA
 #V=INDIA
 #V=CHINA
