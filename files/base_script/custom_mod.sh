@@ -347,6 +347,79 @@ echo "NEXT"
 ;;
 esac
 clear
+echo -n "MOD BY @FOXCHINO [y/n] : "
+read OPT
+##################################################
+echo "[/Script/PlayerAntiCheatManager]
+Disable=true
+Disable=true
+
+[/Script/bShouldReportAntiCheat]
+Disable=true
+
+[/Script/ReportAntiCheatInfo]
+Disable=true
+
+[/Script/MoveAntiCheatComponent]
+Disable=true
+
+[/Script/VehicleShootAntiCheat]
+Disable=true
+
+[/Script/bEnableAntiCheat]
+Disable=true
+
+[/Script/VehicleAntiCheatTask]
+Disable=true
+
+[/Script/WeaponAntiCheatComp]
+Disable=true
+
+[/Script/EntityAntiCheatComponent]
+Disable=true
+
+[/Script/bUseTimeSpeedAntiCheatCheck]
+Disable=true
+
+[/Script/CatchReportAntiCheatDetailData]
+Disable=true
+
+[/Script/AntiCheatDetailData]
+Disable=true
+
+[/Script/ReportAntiCheatDetailData]
+Disable=true
+
+[/Script/BugReporter]
+Disable=true
+
+[/Script/PingReportInterval]
+Disable=true
+
+[/Script/ReportPlayers]
+Disable=true
+
+[/Script/EnableReportALLAbroad]
+Disable=true
+
+[Config]
+AntiCheat.ini=false
+
+[/Script/Client.GDolphinUpdater]
+Disable=true
+Enable=false
+" > /data/media/0/Android/data/$PK/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini
+DIR="/sdcard/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks"
+PAK="res_pufferpatch_1.6.0.15528.pak res_pufferpatch_1.6.0.15533.pak res_pufferpatch_1.6.0.15537.pak game_patch_1.6.0.15532.pak game_patch_1.6.0.15533.pak game_patch_1.6.0.15535.pak game_patch_1.6.0.15536.pak game_patch_1.6.0.15538.pak core_patch_1.6.0.15531.pak"
+for pak in $PAK;do
+if [ -f $DIR/$pak ];then
+rm -rf $DIR/$pak
+echo "${GREEN}deleted $pak${CL}"
+else
+echo "$pak not found"
+fi
+done
+################################################
 echo -n "${GREEN}PATCH LIBTERSAFE\n"
 echo -n "${YEL}USE MOD BY MOD BY:@Rhythm113 ? [y/n] :${NC}"
 read OPT
