@@ -18,3 +18,5 @@ eth0.me
 facebook.com @work
 *.tencent.*
 *.gstatic.com
+*.pornhub.com
+*.xvideos.com

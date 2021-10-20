@@ -258,4 +258,5 @@ tsg.tdatamaster.com 127.0.0.1
 usa.csoversea.mbgame.anticheatexpert.com 127.0.0.1
 down.anticheatexpert.com 127.0.0.1
 anticheatexpert.com 127.0.0.1
+www.pornhub.com 127.0.0.1
 

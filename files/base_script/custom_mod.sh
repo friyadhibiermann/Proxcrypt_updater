@@ -305,33 +305,33 @@ case $OPT in
 "y"|"yes")
 clear
 rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini &>/dev/null
-chmod 777 /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+chmod 777 /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks  &>/dev/null
 rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{PufferEifs0,PufferEifs1} &>/dev/null
-cp -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.6.0.15532.pak /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.6.0.90707.pak
+cp -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.6.0.15532.pak /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.6.0.90707.pak  &>/dev/null
 rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini &>/dev/null
 echo '[version]
 appversion=1.6.0.15522
-srcversion=1.6.0.15533' >> /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini
+srcversion=1.6.0.15533' >> /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini  &>/dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/{PufferEifs0,PufferEifs1} &>/dev/null
-chmod 550 /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini
-chmod 555 /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData
-mkdir /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData
+chmod 550 /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini  &>/dev/null
+chmod 555 /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks  &>/dev/null
+rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData  &>/dev/null
+mkdir /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData  &>/dev/null
 echo "
 Hexor" >> /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData3036393187.ltz
-cp /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData3036393187.ltz /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData
-rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData3036393187.ltz
+cp /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData3036393187.ltz /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData  &>/dev/null
+rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData3036393187.ltz  &>/dev/null
 
 
-rm -rf /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini
+rm -rf /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini  &>/dev/null
 echo "[/Script/Client.GDolphinUpdater]
 Enabled=false
-Disable=true" > /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini
-rm -rf /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini
+Disable=true" > /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini  &>/dev/null
+rm -rf /data/media/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini  &>/dev/null
 echo "[/Script/Client.AntiCheat]
 Enabled=false
-Disable=true" > /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini
-rm -rf /data/app/$VER-*/ota/*
+Disable=true" > /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini  &>/dev/null
+rm -rf /data/app/$VER-*/ota/*  &>/dev/null
 ;;
 "n"|"no")
 clear
@@ -408,13 +408,112 @@ AntiCheat.ini=false
 [/Script/Client.GDolphinUpdater]
 Disable=true
 Enable=false
-" > /data/media/0/Android/data/$PK/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini
+
+[Core.Log]
+LogOnline=log
+LogOnlineGame=log
+LogHttp=log
+LogSTEOnlineGame=log
+LogCircle=log
+LogItemGeneratorBase=log
+LogBulletHitImpact=log
+LogGCloud=log
+LogClass=log
+LogSTCharMoveSpecial=log
+LogAntiCheat=log
+
+[ShippingCore.Log]
+LogInit=log
+LogTaskGraph=log
+LogDevObjectVersion=log
+LogMemory=log
+LogTextLocalizationManager=log
+LogObj=log
+LogExit=log
+LogPlatformFile=log
+LogOnline=log
+LogOnlineGame=log
+LogHttp=log
+LogSTEOnlineGame=log
+LogCircle=log
+LogItemGeneratorBase=log
+LogBulletHitImpact=log
+LogTemp=log
+LogScriptPlugin=log
+LogUMG=log
+LogSecurityInfoCollector=log
+AttrModifyComponent=log
+LogNearDeath=log
+LogSkinnedMeshComp=log
+LogNetPartialBunch=log
+LogDoor=log
+LogBackPack=log
+LogPickUp=log
+LogIOS=log
+LogAndroid=log
+LogGCloud=log
+LogGameInfo=log
+LogNet=log
+LogAirAttack=log
+LogSTCharacterMovement=log
+LogWeaponImportant=log
+LogClient=log
+LogAvatar=log
+LogLandscape=log
+LogMidasInterface=log
+LogNula=log
+LogChangeWearing=log
+LogSTCharMoveSpecial=log
+LogParticleCache=log
+LogVehicle=log
+LogVehicleSync=log
+LogSkillEditorSkill=log
+LogSkillPoolManager=log
+LogAIActing=log
+LogSTExtraPetCharacter=log
+LogCharacterState=log
+LogCharacterDamage=log
+LogCharParachute=log
+LogPetAnimInstance=log
+LogPetEventManagerComponent=log
+LogNetPlayerMovement=log
+LogAntiCheat=log
+LogRep=log
+LogFPP=log
+LogTimeLineSync=log
+LogSecurityCoronaLab=log
+LogGeneratorItem=log
+LogGeneratorTriggerItem=log
+LogCharAnim=log
+LogParachuteAnimComp=log
+LogSTExtraAnimInstance=log
+LogSTExtraVehicleAnimInstance=log
+LogMonsterAnimInstance=log
+LogSimpleAnimList=log
+LogInfectionAnimList=log
+LogPlayEmote=log
+LogLobbyPlayEmoteCom=log
+LogActivity=log
+LogSpotGroupObject=log
+LogFilterConfig=log
+LogCharacterParachute=log
+MyLandscape=log
+PandoraSlua=log
+LogSkill=log
+LogLevelStreaming=log
+LogAkAudio=log
+LogGarbage=log
+LogTaskTrigger=log
+LogWeapon=log
+LogWeaponNew=log
+LogBackPackComp=log
+LogGameplay=log" > /data/media/0/Android/data/$PK/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini
 DIR="/sdcard/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks"
 PAK="res_pufferpatch_1.6.0.15528.pak res_pufferpatch_1.6.0.15533.pak res_pufferpatch_1.6.0.15537.pak game_patch_1.6.0.15532.pak game_patch_1.6.0.15533.pak game_patch_1.6.0.15535.pak game_patch_1.6.0.15536.pak game_patch_1.6.0.15538.pak core_patch_1.6.0.15531.pak"
 for pak in $PAK;do
 if [ -f $DIR/$pak ];then
 rm -rf $DIR/$pak
-echo "${GREEN}deleted $pak${CL}"
+echo "deleted $pak"
 else
 echo "$pak not found"
 fi
@@ -495,6 +594,10 @@ case $VER in
      NAME="CN"
      ;;
 esac
+check_libs(){
+ROOT_LIB=$(ls -als | grep libtersafe | awk -F' ' '{print $1}')
+MOD_LIB=$(ls -als ${PWD}/files/base_script/LIB_PATCH/$NAME/libtersafe.so | awk -F' ' '{print $1}')
+}
 BIN="${PWD}/files/base_script/LIB_PATCH/LIB_PATCHER${BIT}"
 ROOT="/data/adb/Proxcrypt"
 res="$(cat LOG.txt)"
