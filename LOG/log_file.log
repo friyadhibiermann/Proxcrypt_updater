@@ -1,15 +1,8 @@
 
-[1;32m24322 killed[0m
-[1;32m23624 killed[0m
-[1;32m24287 killed[0m
-[1;32m23698 killed[0m
-[1;32mfolder TGPA NULL created
-[1;32mfolder Logs NULL created
-[1;32mCLEAN: [0m/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs_old/ShadowTrackerExtra.log[0m
-8
-[1;32m24787 killed[0m
-[1;32m24580 killed[0m
-[1;32m24637 killed[0m
+[1;32m27909 killed[0m
+[1;32m27219 killed[0m
+[1;32m27359 killed[0m
+[1;32m27188 killed[0m
 [1;32mfolder Puffer* NULL created
 [1;32mCLEAN: [0m/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Login/Nreason_0.json
 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/AgreeIllegalAvatarRule.json
@@ -21,35 +14,44 @@
 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/NewPlayerprefsSwitcher.json
 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LobbyBubble/LobbyBubble_83359092814775592.json
 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json[0m
-23
-[1;32m26047 killed[0m
-[1;32m25911 killed[0m
-[1;32m25632 killed[0m
-[1;32m25690 killed[0m
+16
+[1;32m28450 killed[0m
+[1;32m28125 killed[0m
+[1;32m28177 killed[0m
 [1;32mfolder Puffer* NULL created
-29
-[1;32m26426 killed[0m
-[1;32m26512 killed[0m
-[1;32m26398 killed[0m
+21
+[1;32m28582 killed[0m
 [1;32mfolder Puffer* NULL created
-34
-[1;32m27239 killed[0m
-[1;32m27047 killed[0m
-[1;32m27096 killed[0m
+[1;32m8749 killed[0m
+[1;32m14315 killed[0m
+[1;32m13249 killed[0m
+[1;32m8641 killed[0m
+[1;32m14973 killed[0m
+[1;32m8601 killed[0m
+[1;32m/data/data/com.tencent.ig/files FOLDER MOVED 
+[1;32m/data/data/com.tencent.ig/databases FOLDER MOVED 
+[1;32mfolder cache NULL created
+[1;32mfolder ProgramBinaryCache NULL created
+[1;32mCLEAN: [0m/storage/emulated/0/Android/data/com.tencent.ig/cache_old/GCloudSDKLog/GCloud/GCloud_2021102021.log[0m
+35
+[1;32m15197 killed[0m
+[1;32m15266 killed[0m
+[1;32mfolder TGPA NULL created
+[1;32mfolder Logs NULL created
+[1;32mCLEAN: [0m/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs_old/ShadowTrackerExtra.log[0m
+[1;32mCLEAN: [0m/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/AgreeIllegalAvatarRule.json[0m
+42
+[1;32m16037 killed[0m
+[1;32m16014 killed[0m
+[1;32m15806 killed[0m
 [1;32mfolder Puffer* NULL created
-39
-[1;32m28063 killed[0m
-[1;32m27643 killed[0m
-[1;32m27825 killed[0m
-[1;32m27543 killed[0m
-[1;32m27498 killed[0m
-[1;32mfolder Puffer* NULL created
-46
-[1;32m28448 killed[0m
-[1;32m28781 killed[0m
-[1;32m28688 killed[0m
-[1;32m28896 killed[0m
-[1;32m28775 killed[0m
-[1;32m28396 killed[0m
-[1;32mfolder Puffer* NULL created
-54
+[1;32mCLEAN: [0m/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Login/Nreason_0.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/loginInfoFile.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/playerprefs.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/MailPhoneLogin.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/RoleInfo/Segment_83359092814775592.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/Arena/RedDot_83359092814775592.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/NewPlayerprefsSwitcher.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LobbyBubble/LobbyBubble_83359092814775592.json
+/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json[0m
+56

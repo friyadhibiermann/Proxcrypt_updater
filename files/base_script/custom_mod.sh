@@ -106,7 +106,7 @@ sleep 5
 rm -rf /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini &>/dev/null
 echo '[version]
 appversion=1.6.0.15522
-srcversion=1.6.0.15535' >> /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini
+srcversion=1.6.0.15535' > /storage/emulated/0/Android/data/$VER/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini
 
 ;;
 "n"|"no")
